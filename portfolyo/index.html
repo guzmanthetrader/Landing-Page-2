@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolyo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/11a3aa1654.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Anasayfa</a></li>
+          <li><a href="#about">Hakkımda</a></li>
+          <li><a href="#servisler">Servisler</a></li>
+          <li><a href="#contact">İletişim</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+    <div class="header-text">
+      <p>Web Developer</p>
+      <h1>Merhaba, Ben <span>Onur</span></h1>
+    </div>
+    </div>
+  </div>
+
+
+
+<div id="about">
+  <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="benim.jpg" alt="">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">Hakkımda</h1>
+          <p>Merhaba, ben Onur Dokuyucu. Marmara Üniversitesi Yönetim Bilişim Sistemleri 4. sınıf öğrencisiyim. Aktif olarak 1 yıldır Web Development ile uğraşmaktayım.
+            Bu süreçte HTML,CSS,Bootstrap,JavaScript ve React öğrendim. Faal olarak son 2 aydır bunlar üzerine çalışmalar yapmaktayım.
+            Bunların haricinde Logo tasarımı ile ilgilenmekteyim. Kreatif ve teknolojik beceri setimle, sizlerin hayallerini gerçeğe dönüştürmeyi amaçlıyorum. Güçlü ve esnek çözümler sunuyor ve sizlerin memnuniyetini her zaman öncelikli tutuyorum.</p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('Yetenekler')">Yetenekler</p>
+              <p class="tab-links" onclick="opentab('Deneyimler')">Deneyimler</p>
+              <p class="tab-links" onclick="opentab('Eğitim')">Eğitim</p>
+              </div>
+              <div class="tab-contents active-tab" id="Yetenekler">
+                <ul>
+                  <li><span>Tasarım</span><br>Web Sitesi/Uygulaması/Kurumsal Logo Tasarlama</li>
+                  <li><span>Web Development</span><br>Web Sitesi/Uygulaması Tasarlama</li>
+                  <li><span>Sermaye Piyasaları</span><br>Kişisel Portyföy Yönetimi</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="Deneyimler">
+              <ul>
+                <li><span>Web Development Eğitimi</span><br>Patika.Dev-FreeCodeCamp</li>
+                <li><span>Tasarım</span><br>FreeCodeCamp</li>
+                <li><span>Sermaye Piyasaları</span><br>İnner Circle Trader Mentorship</li>
+              </ul>
+          </div>
+          <div class="tab-contents" id="Eğitim">
+            <ul>
+              <li><span>Lisans</span><br>Marmara Üniversitesi Yönetim Bilişim Sistemleri</li>
+              <li><span>Lise</span><br>Pendik Kültür Temel Lisesi</li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- services -->
+ <div id="servisler">
+  <div class="container">
+    <h1 class="sub-title">Servislerimiz</h1>
+    <div class="servisler-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Development</h2>
+        <p>Kullanıcıların talepleri  göz önünde bulundurularak yapılan tasarımlarda; renk, doku, entegrasyon, hız, işlev gibi pek çok konuya dikkat edilmekte ve bu şekilde kusursuz web sitesi tasarımı ortaya çıkarılmaktadır.  Profesyonel web sitesi tasarımı tam olarak bu noktada devreye girmekte ve firma sahiplerinin müşterilerine kendini etkili bir şekilde ifade etmesi,  hizmetleri tanıtabilmesi ve potansiyel müşterilere ulaşım sağlaması adına önem taşımaktadır.</p>
+       
+      </div>
+      <div>
+        <i class="fa-solid fa-shop"></i>
+        <h2>E Ticaret Sistemleri</h2>
+        <p>Gelişen teknoloji ile birlikte dünya genelinde geleneksel ticaret yerini e-ticarete bırakmıştır. İnternet üzerinden gerçekleştirilen bu ticaret türü sayesinde markalar ürünlerini online pazarlar üzerinde pazarlayabilmekte ve ürün satışlarından yüksek gelirler elde edebilmektedir. Şahsım olarak e-ticaret, dijital pazarlama ve ürün stratejisi alanında çeşitli hizmetler sunmaktayız.</p>
+        
+      </div>
+      <div>
+        <i class="fa-sharp fa-solid fa-compass-drafting"></i>
+        <h2>Web Tasarım</h2>
+        <p>Kurumsal yapınıza uygun, isteğiniz doğrultusunda pazar yapınıza hitab edebilen logo,poster tasarımı yapıyoruz.</p>
+        
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <!-- ----İLETİŞİM----- -->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">İletişim</h1>
+        <p><i class="fa-solid fa-envelope"></i></i>onurdokuyucu@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i></p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/onurrdkyc/?igshid=YmMyMTA2M2Y%3D" class=""><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/onur-dokuyucu-1164841a3/" class=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://twitter.com/onurdkyc" class=""><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <a href="mycv.pdf" download class="btn btn2"><span id="cv">Download CV</span></a>
+      </div>
+      <div class="contact-right">
+        <div class="contact-right">
+          <form>
+          <input type="text" name="Name" placeholder="Adınız" required>
+          <input type="text" name="email" placeholder="Mail Adresiniz" required>
+          <textarea name="Mesaj" rows="6" placeholder="Mesajınız" cols="30" rows="10"></textarea>
+          <button type="submit" class="btn btn2"><span id="gönder">Gönder</span></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p><i class="fa-solid fa-copyright"></i>Bu site Onur Dokuyucu tarafından yapılmıştır.</p>
+  </div>
+</div>
+
+
+<script>
+var tablinks=document.getElementsByClassName("tab-links");
+var tabcontents=document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  }
+event.currentTarget.classList.add("active-link");
+document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right="0";
+  }
+  function closemenu(){
+    sidemenu.style.right="-200px";
+  }
+</script>
+</body>
+</html>
